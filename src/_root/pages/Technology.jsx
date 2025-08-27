@@ -6,7 +6,6 @@ function Technology() {
   const technology = jsonData.technology;
   const current = technology[currentIndex];
   const [screenWidth, setScreenWidth] = useState(window.innerWidth);
-  console.log(screenWidth);
 
   useEffect(() => {
     const handleResize = () => {

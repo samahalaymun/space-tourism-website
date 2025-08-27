@@ -6,7 +6,6 @@ function Destination() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const destinations = jsonData.destinations;
   const current=destinations[currentIndex];
-  console.log(current);
 
   useEffect(() => {
     setData(jsonData);

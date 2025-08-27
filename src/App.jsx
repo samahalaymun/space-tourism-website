@@ -17,7 +17,7 @@ function App() {
 
   useEffect(() => {
     const updateBodyClass = () => {
-      const path = location.pathname;
+      const path = location.pathname;      
       document.body.className = "";
       if (path === "/") {
         document.body.classList.add("home");

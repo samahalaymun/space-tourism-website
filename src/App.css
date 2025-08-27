@@ -19,16 +19,16 @@ body {
   background-color: #0b0d17 !important;
 }
 body.home {
-  background: url("./assets/home/background-home-desktop.jpg");
+  background: url("/assets/home/background-home-desktop.jpg");
 }
 body.destination {
-  background: url("./assets/destination/background-destination-desktop.jpg");
+  background: url("/assets/destination/background-destination-desktop.jpg");
 }
 body.crew {
-  background: url("./assets/crew/background-crew-desktop.jpg");
+  background: url("/assets/crew/background-crew-desktop.jpg");
 }
 body.technology {
-     background: url("./assets/technology/background-technology-desktop.jpg");
+     background: url("/assets/technology/background-technology-desktop.jpg");
   }
 .nav-link {
   @apply flex gap-2 uppercase h-full items-center text-[18px]  font-light hover:border-b-4;
@@ -50,31 +50,31 @@ body.technology {
 }
 @media (max-width: 1024px) {
   body.home {
-    background: url("./assets/home/background-home-tablet.jpg");
+    background: url("/assets/home/background-home-tablet.jpg");
   }
   body.destination {
-    background: url("./assets/destination/background-destination-tablet.jpg");
+    background: url("/assets/destination/background-destination-tablet.jpg");
   }
 
   body.crew {
-    background: url("./assets/crew/background-crew-tablet.jpg");
+    background: url("/assets/crew/background-crew-tablet.jpg");
   }
   body.technology {
-     background: url("./assets/technology/background-technology-tablet.jpg");
+     background: url("/assets/technology/background-technology-tablet.jpg");
   }
 }
 @media (max-width: 768px) {
   body.home {
-    background: url("./assets/home/background-home-mobile.jpg");
+    background: url("/assets/home/background-home-mobile.jpg");
   }
   body.destination {
-    background: url("./assets/destination/background-destination-mobile.jpg");
+    background: url("/assets/destination/background-destination-mobile.jpg");
   }
 
   body.crew {
-    background: url("./assets/crew/background-crew-mobile.jpg");
+    background: url("/assets/crew/background-crew-mobile.jpg");
   }
   body.technology {
-     background: url("./assets/technology/background-technology-mobile.jpg");
+     background: url("/assets/technology/background-technology-mobile.jpg");
   }
 }

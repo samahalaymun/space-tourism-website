@@ -1,13 +1,14 @@
-
 function Hamburger({ setOpenMenu, openMenu }) {
+  const url = import.meta.env.BASE_URL;
+
   return (
     <div className="pr-6 block md:hidden z-3">
       <button onClick={() => setOpenMenu(!openMenu)}>
         <img
           src={
             openMenu
-              ? "/assets/shared/icon-close.svg"
-              : "/assets/shared/icon-hamburger.svg"
+              ? url + "/assets/shared/icon-close.svg"
+              : url + "/assets/shared/icon-hamburger.svg"
           }
           className="w-6 h-[21px]"
           alt="menu-hamburger"
@@ -17,4 +18,4 @@ function Hamburger({ setOpenMenu, openMenu }) {
   );
 }
 
-export default Hamburger
+export default Hamburger;
